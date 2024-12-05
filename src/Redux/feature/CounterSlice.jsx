@@ -15,10 +15,14 @@ const initialState = {
 
  decrement:(state,action)=>{
   state.count = state.count -1
+  },
+
+ incrementByValue :(state,action)=>{
+  state.count = state.count +action.payload.value
   }
     }
   })
    
-  export const{ decrement, increment}=counterSlice.actions
+  export const{ decrement, increment,incrementByValue}=counterSlice.actions
 
   export default counterSlice.reducer

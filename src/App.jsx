@@ -12,7 +12,7 @@ function App() {
     <div className="h-screen flex w-full justify-center items-center">
      
       
-      <div  className="flex gap-6 border-2 border-purple-700 bg-gray-300 px-8 py-20">
+   <div  className="flex gap-6 border-2 border-purple-700 bg-gray-300 px-8 py-20">
     <button onClick={()=>dispatch(increment())}  className="px-4
      py-2 bg-green-500 rounded-md "> Increment</button>
     <button onClick={()=>dispatch(incrementByValue({value:5}))}  className="px-4

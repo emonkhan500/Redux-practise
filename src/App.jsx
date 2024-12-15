@@ -4,9 +4,8 @@ import { decrement, increment, incrementByValue } from "./Redux/feature/CounterS
 
 
 function App() {
-
-  const count = useSelector((state=>state.counter.count))
-  const dispatch= useDispatch()
+const count = useSelector((state=>state.counter.count))
+const dispatch= useDispatch()
 
   
   return (

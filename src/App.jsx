@@ -7,6 +7,7 @@ function App() {
 const count = useSelector((state=>state.counter.count))
 const dispatch= useDispatch()
  return (
+  
     <div className="h-screen flex w-full justify-center items-center">
       <div  className="flex gap-6 border-2 border-purple-700 bg-gray-300 px-8 py-20">
     <button onClick={()=>dispatch(increment())}  className="px-4

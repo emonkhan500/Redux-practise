@@ -19,6 +19,7 @@ const dispatch= useDispatch()
      py-2 bg-red-500 rounded-md "> Decrement</button>
       </div>
       
+     
       </div>
   )
 }

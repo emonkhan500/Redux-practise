@@ -20,7 +20,7 @@ const dispatch= useDispatch()
       </div>
       
      
-      </div>
+ </div>
   )
 }
 

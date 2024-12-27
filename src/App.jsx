@@ -14,8 +14,7 @@ const dispatch= useDispatch()
     <button onClick={()=>dispatch(incrementByValue({value:5}))}  className="px-4
      py-2 bg-green-500 rounded-md "> Increment By Value</button>
     <h2 className="text-3xl bg-purple-300 px-5 py-2 rounded-md">{count}</h2>
-    
-<button onClick={()=>dispatch(decrement())} className="px-4
+    <button onClick={()=>dispatch(decrement())} className="px-4
      py-2 bg-red-500 rounded-md "> Decrement</button>
       </div>
       

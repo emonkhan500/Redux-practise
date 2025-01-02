@@ -16,6 +16,8 @@ const dispatch= useDispatch()
     <h2 className="text-3xl bg-purple-300 px-5 py-2 rounded-md">{count}</h2>
     <button onClick={()=>dispatch(decrement())} className="px-4
      py-2 bg-red-500 rounded-md "> Decrement</button>
+     
+     
       </div>
       </div>
   )

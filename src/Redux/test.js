@@ -1,6 +1,8 @@
 // carrying function
 
 
+
+
 const add=(a)=>{
     return (b)=>{
         return (c)=>{

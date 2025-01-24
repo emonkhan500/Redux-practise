@@ -6,7 +6,4 @@ const add=(a)=>{
             return a+b+c}
  }
 }
-
-
-
 console.log(add(1),(1),(1));
